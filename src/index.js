@@ -9,6 +9,7 @@ app.use(bodyParser.json())
 //Utilizando urlencoded para decodificar paramentros a serem passados por url
 app.use(bodyParser.urlencoded({ extended: false }))
 
+//Mostara quando a api sera logada
 // app.get('/', (req, res) => {
 //     res.send('Servidor iniciado no endereço localhost:3000 !')
 // })
