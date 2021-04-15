@@ -14,7 +14,6 @@ app.use(bodyParser.urlencoded({ extended: false }))
 //     res.send('Servidor iniciado no endereço localhost:3000 !')
 // })
 
-require('./controllers/authController')(app)
-require('./controllers/projectController')(app)
+require('./app/controllers/index')(app)
 
 app.listen(3000)
